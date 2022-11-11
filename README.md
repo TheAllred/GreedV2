@@ -1,7 +1,21 @@
-# Robot Finds Kitten
-Simon Carless once described robotfindskitten as "less a game and more a way of 
-life ... It's fun to wander around until you find a kitten, at which point you feel 
-happy and can start again". I don't think I could have said it better myself!
+# Greed 
+
+He who is not contented with what he has,
+would not be contented with what he would like to have.
+
+- Socrates -
+
+
+Greed is played according to the following rules.
+
+Gems (*) and rocks (#) randomly appear and fall from the top of the screen.
+The player (#) can move left or right along the bottom of the screen.
+If the player touches a gem they earn a point.
+If the player touches a rock they lose a point.
+Gems and rocks are removed when the player touches them.
+The game continues until the player closes the window.
+
+
 
 ---
 ## Getting Started
@@ -33,5 +47,4 @@ root                    (project root folder)
 * raylib-cs 3.7.0.1
 
 ## Authors
-* Matt Manley (manleym@byui.edu)
-* Scott Burton (burtons@byui.edu)
+Kevin Allred kevinallred@byui.edu
