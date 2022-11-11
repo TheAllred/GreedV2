@@ -88,8 +88,7 @@ namespace Unit04.Game.Directing
                     banner.addValue(message);
                     banner.SetText(banner.getValue().ToString());
                         int x = random.Next(1, COLS);
-                        // int y = random.Next(1, ROWS);
-                    //    int x =  actor.GetPosition().GetX();
+                    
                         int y = 0;
                         Point position = new Point(x, y);
                         position = position.Scale(CELL_SIZE);

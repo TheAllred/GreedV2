@@ -43,6 +43,7 @@ namespace Unit04.Game.Services
                 dx = 1;
             }
 
+//lock the robot to the bottom
             // if (Raylib.IsKeyDown(KeyboardKey.KEY_UP))
             // {
             //     dy = -1;

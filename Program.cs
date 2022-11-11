@@ -63,8 +63,10 @@ namespace Unit04
             Random random = new Random();
             for (int i = 0; i < DEFAULT_ARTIFACTS; i++)
             {
+                //set generic info for artifact
                 string text = "F";
                 int message = 4;
+                //decide if the artifact will be a gem or a rock 
                 int gemOrRock = random.Next(0,2);
                 if(gemOrRock==1){
                     text = "*";
